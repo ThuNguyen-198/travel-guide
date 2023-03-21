@@ -1,0 +1,21 @@
+.ban-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-height: 350px;
+  overflow: auto;
+}
+.ban-quote {
+  font-size: 24px;
+}
+.ban-item {
+  border: 1px solid #e9edc9;
+  padding: 6px 12px;
+  font-size: 24px;
+  background-color: #e9edc9;
+  border-radius: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0;
+}

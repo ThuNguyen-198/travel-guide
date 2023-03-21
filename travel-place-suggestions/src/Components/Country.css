@@ -1,0 +1,31 @@
+.destination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.attribute-list {
+  display: flex;
+  gap: 35px;
+}
+.attribute-item {
+  border: 1px solid #e9edc9;
+  padding: 12px 24px;
+  font-size: 24px;
+  background-color: #e9edc9;
+  border-radius: 11px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.attribute-item:active {
+  transform: scale(0.95);
+}
+.alt-description {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+.country-img {
+  width: 60%;
+}
