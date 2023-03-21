@@ -25,7 +25,7 @@ function App() {
 
   const makeQuery = () => {
     let query =
-      "https://api.unsplash.com/photos/random?per_page=1&query=asia&client_id=mie_q-oREQWfw6LtKPOxKboBz_uYHDioi8xUUNxAWLY";
+      "https://api.unsplash.com/photos/random?per_page=1&query=asia&client_id=ihbuDqx7tHGimCKqL4akR3s_j1FWU2jd0wQXKD0VECc";
     callAPI(query).catch(console.error);
     addGallery(inputs);
   };
